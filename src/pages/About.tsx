@@ -3,33 +3,33 @@ function About() {
     <>
       {/* HERO */}
 
-      <section
-        className="relative h-[80vh] bg-cover bg-center flex items-center"
-        style={{
-          backgroundImage: "url('/aboutpic2.jpeg')",
-        }}
-      >
-        <div className="absolute inset-0 bg-black/50"></div>
+<section
+  className="relative min-h-[70vh] md:h-[80vh] bg-cover bg-center flex items-center"
+  style={{
+    backgroundImage: "url('/aboutpic2.jpeg')",
+  }}
+>
+  <div className="absolute inset-0 bg-black/55"></div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 text-white">
+  <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 text-white py-20 md:py-0">
 
-          <p className="uppercase tracking-[0.3em] text-sm mb-4">
-            About PlanetCred
-          </p>
+    <p className="uppercase tracking-[0.25em] text-xs md:text-sm mb-4">
+      About PlanetCred
+    </p>
 
-          <h1 className="font-heading text-5xl md:text-7xl max-w-5xl leading-tight">
-            Building climate education that speaks local languages and
-            systems that verifies climate action.
-          </h1>
+    <h1 className="font-heading text-3xl sm:text-4xl md:text-7xl max-w-3xl md:max-w-5xl leading-tight">
+      Building climate education that speaks local languages
+      and systems that verify climate action.
+    </h1>
 
-          <p className="mt-8 max-w-3xl text-lg leading-8 text-gray-200">
-            PlanetCred exists to localize climate education across Africa
-            and build trusted systems that make climate action visible,
-            verified, and valued from the grassroots up.
-          </p>
+    <p className="mt-6 md:mt-8 max-w-xl md:max-w-3xl text-base md:text-lg leading-7 md:leading-8 text-gray-200">
+      PlanetCred exists to localize climate education across Africa
+      and build trusted systems that make climate action visible,
+      verified, and valued from the grassroots up.
+    </p>
 
-        </div>
-      </section>
+  </div>
+</section>
 
       {/* VISION + MISSION */}
 

@@ -3,53 +3,53 @@ function Home() {
     <>
       {/* HERO */}
 
-      <section
-        className="relative h-[90vh] bg-cover bg-center flex items-center"
-        style={{
-          backgroundImage: "url('/hero.jpeg')",
-        }}
+<section
+  className="relative min-h-[75vh] md:h-[90vh] bg-cover bg-center flex items-center"
+  style={{
+    backgroundImage: "url('/hero.jpeg')",
+  }}
+>
+  <div className="absolute inset-0 bg-black/50"></div>
+
+  <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 text-white py-20 md:py-0">
+
+    <p className="uppercase tracking-[0.25em] text-xs md:text-sm mb-4">
+      Climate Action. Measured. Rewarded. Scaled.
+    </p>
+
+    <h1 className="font-heading text-4xl sm:text-5xl md:text-7xl max-w-3xl md:max-w-4xl leading-tight">
+      Localizing Climate Education,
+      Verifying Climate Action
+    </h1>
+
+    <p className="mt-6 md:mt-8 max-w-xl md:max-w-2xl text-base md:text-lg leading-7 md:leading-8 text-gray-200">
+      PlanetCred exists to localize climate education across Africa
+      and build trusted systems that make grassroots climate action
+      visible, verified, and valued.
+    </p>
+
+    <div className="mt-8 md:mt-10 flex flex-row gap-3 flex-wrap">
+
+      <a
+        href="/projects"
+        className="bg-primary text-white px-4 md:px-6 py-2.5 md:py-3 rounded-full text-sm md:text-base whitespace-nowrap"
       >
-        <div className="absolute inset-0 bg-black/50"></div>
+        Explore Our Work
+      </a>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 text-white">
+      <a
+        href="https://t.me/planetcred"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="border border-white px-4 md:px-6 py-2.5 md:py-3 rounded-full text-sm md:text-base whitespace-nowrap"
+      >
+        Join Community
+      </a>
 
-          <p className="uppercase tracking-[0.3em] text-sm mb-4">
-            Climate Action. Measured. Rewarded. Scaled.
-          </p>
+    </div>
 
-          <h1 className="font-heading text-5xl md:text-7xl max-w-4xl leading-tight">
-            Localizing Climate Education,
-            Verifying Climate Action
-          </h1>
-
-          <p className="mt-8 max-w-2xl text-lg leading-8 text-gray-200">
-            PlanetCred exists to localize climate education across Africa
-            and build trusted systems that make grassroots climate action
-            visible, verified, and valued.
-          </p>
-
-          <div className="mt-10 flex gap-4 flex-wrap">
-
-            <a
-              href="/projects"
-              className="bg-primary text-white px-6 py-3 rounded-full"
-            >
-              Explore Our Work
-            </a>
-
-            <a
-              href="https://t.me/planetcred"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-white px-6 py-3 rounded-full"
-            >
-              Join Community
-            </a>
-
-          </div>
-
-        </div>
-      </section>
+  </div>
+</section>
 
       {/* STATS */}
 
