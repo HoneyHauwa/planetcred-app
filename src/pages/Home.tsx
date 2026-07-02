@@ -31,7 +31,7 @@ function Home() {
     <div className="mt-8 md:mt-10 flex flex-row gap-3 flex-wrap">
 
       <a
-        href="/projects"
+        href="/Projects"
         className="bg-primary text-white px-4 md:px-6 py-2.5 md:py-3 rounded-full text-sm md:text-base whitespace-nowrap"
       >
         Explore Our Work
